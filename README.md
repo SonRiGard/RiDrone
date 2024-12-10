@@ -21,20 +21,21 @@
   - 🐝 Điều khiển drone theo bầy đàn.
 
 ## 💻 Yêu cầu hệ thống  
+
 - **Phần cứng:**  
-  - 🖥️ ESP32  
-  - ⚙️ Cảm biến MPU6050, HMC5883L  
-  - 📡 NRF24L01  
-  - 🔧 Động cơ servo  
+  - 🖥️ ESP32: Bộ vi điều khiển mạnh mẽ với Wi-Fi và Bluetooth tích hợp, phù hợp để xử lý nhiều tác vụ như giao tiếp không dây và điều khiển.  
+  - ⚙️ Cảm biến MPU6050, HMC5883L: MPU6050 cung cấp dữ liệu gia tốc và con quay hồi chuyển, kết hợp với HMC5883L để đo từ trường, giúp định hướng và ổn định drone.  
+  - 📡 NRF24L01: Module giao tiếp không dây với độ trễ thấp và phạm vi hoạt động xa, lý tưởng cho việc điều khiển từ xa.  
+  - 🔧 Động cơ servo: Được sử dụng để điều khiển cánh quạt hoặc các cơ chế linh hoạt trên drone, giúp nâng cao khả năng kiểm soát.  
 
 - **Phần mềm:**  
-  - 🔗 [PlatformIO](https://platformio.org/)  
-  - 🛠️ Framework: Arduino  
+  - 🔗 [PlatformIO](https://platformio.org/): Một IDE mạnh mẽ, hỗ trợ nhiều nền tảng, tích hợp dễ dàng các thư viện và công cụ build tự động, tiết kiệm thời gian cho lập trình viên.  
+  - 🛠️ Framework: Arduino: Đơn giản, dễ sử dụng, có cộng đồng hỗ trợ lớn, giúp người mới dễ dàng tiếp cận và phát triển ứng dụng drone.   
 
 ## ⚙️ Cài đặt  
 1. **Clone dự án:**  
    ```bash
-   git clone https://github.com/your-username/ridrone.git
+   git clone https://github.com/SonRiGard/RiDrone
    cd ridrone
    ```
 2. 📦 Cài đặt các thư viện  
@@ -65,3 +66,4 @@ Chúng tôi rất mong nhận được sự đóng góp từ các bạn. Dưới
 ## 📬 Liên hệ  
 Hãy tham gia repository của chúng tôi để đóng góp hoặc đặt câu hỏi:  
 [GitHub - Ridrone](https://github.com/SonRiGard/RiDrone)
+Hoặc qua địa chỉ mail cá nhân nếu muốn giải thích cụ thể để cùng bắt đầu. :)
